@@ -16,7 +16,7 @@ export default defineConfig({
     trailingSlash: "never",
     integrations: [
         tailwind({
-            applyBaseStyles: false
+            applyBaseStyles: true
         }),
         sitemap(),
         mdx()
